@@ -77,6 +77,15 @@ if "target" not in st.session_state:
 
 st.title("Wordle")
 
+st.markdown("""
+This is a real first-year computer science project at Susquehanna. In **CSCI-181 Principles of Computer Science**, students recreate the basic functionality of Wordle using Python, including checking guesses correctly and giving color-coded feedback.
+
+This demo shows the core functionality we expect, but students are encouraged to make the project their own. They can add features like a color-coded on-screen keyboard, a larger word bank, or win/loss statistics.
+
+**Curious about the code?** Click the GitHub icon (the cat) in the upper-right corner to see the code behind this demo, including the same core logic CSCI-181 students write.
+""")
+
+
 # STREAMLIT CHANGE:
 # input() cannot be used in a Streamlit app.  A form replaces the original
 # input()/while loop. Invalid guesses are rejected without using up a turn.
